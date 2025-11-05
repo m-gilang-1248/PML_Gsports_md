@@ -8,7 +8,7 @@
 | ------------------ | -------------------------------------------- |
 | **Versi Dokumen**  | 1.0                                          |
 | **Tanggal**        | 5 November 2025                              |
-| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabd
+| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabdokafi (221240001248)
 ---
 
 ## **1. Ringkasan Eksekutif (Executive Summary)**
@@ -143,4 +143,5 @@ graph TD
 ## **10. Asumsi & Ketergantungan**
 
 *   **Asumsi:** Pengguna memahami konsep deep linking dan cara membagikan tautan dari aplikasi mobile. Model "Host Membayar Penuh" dapat diterima oleh target audiens untuk MVP fitur patungan.
+
 *   **Ketergantungan:** Ketersediaan dan kestabilan Appwrite Cloud atau instance self-hosted. Proses peninjauan aplikasi oleh Apple App Store dan Google Play Store berjalan lancar.
