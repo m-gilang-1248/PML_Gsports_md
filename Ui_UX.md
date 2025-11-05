@@ -10,7 +10,7 @@ Dokumen ini akan berfungsi sebagai jembatan antara PRD (apa yang kita bangun) da
 | ------------------ | -------------------------------------------- |
 | **Versi Dokumen**  | 1.0                                          |
 | **Tanggal**        | 5 November 2025                              |
-| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabd
+| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabdokafi (221240001248)
 ---
 *   **Nama Produk:** Gsports
 *   **Tanggal:** 5 November 2025
@@ -153,4 +153,5 @@ Desain Gsports v2.0 harus berpegang pada empat prinsip utama:
 *   **Loading States:** Gunakan *skeleton loaders* (kerangka abu-abu yang berkedip) saat memuat daftar SC atau riwayat untuk UX yang lebih baik daripada spinner di tengah layar.
 *   **Feedback Aksi:** Setiap aksi penting (booking, bergabung, menyalin tautan, menyimpan hasil) harus memberikan umpan balik visual instan (toast, snackbar, atau perubahan state tombol).
 *   **Transisi Halus:** Gunakan animasi transisi yang halus (fade in/out, slide up) antar layar untuk membuat aplikasi terasa lebih profesional dan tidak "patah-patah".
+
 *   **Gestur:** Pertimbangkan gestur "tarik untuk refresh" (pull-to-refresh) pada daftar yang dinamis seperti jadwal atau riwayat.
