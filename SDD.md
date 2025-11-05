@@ -4,7 +4,7 @@
 | ------------------ | -------------------------------------------- |
 | **Versi Dokumen**  | 1.0                                          |
 | **Tanggal**        | 5 November 2025                              |
-| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabd
+| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabdokafi (221240001248)
 ---
 *   **Nama Produk:** Gsports
 *   **Tujuan:** Dokumen ini merinci desain teknis dan arsitektur perangkat lunak untuk implementasi Gsports v2.0. Dokumen ini bertujuan untuk memberikan panduan yang jelas bagi tim pengembangan tentang struktur kode, komponen utama, interaksi sistem, dan spesifikasi API, berdasarkan dokumen SRS v2.0 dan PRD v2.0.
@@ -176,4 +176,5 @@ sequenceDiagram
     *   **Baca Publik:** Koleksi seperti `sport_centers` dan `fields` akan memiliki izin baca `role:all`.
     *   **Baca Terproteksi:** Pengguna hanya dapat membaca data booking atau riwayat pertandingan miliknya sendiri. Ini diatur melalui *Document Level Permissions* (`user:[USER_ID]`).
     *   **Tulis Terproteksi:** Seperti yang ditekankan, semua operasi tulis kritis dilakukan oleh Functions, yang berjalan dengan API key sisi server yang memiliki hak akses lebih tinggi, sehingga klien tidak pernah memiliki izin tulis langsung ke koleksi sensitif.
+
 3.  **Validasi Input:** Setiap Appwrite Function **wajib** melakukan validasi dan sanitasi input dari klien sebelum memprosesnya untuk mencegah *injection* atau data yang tidak valid.
