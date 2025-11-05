@@ -7,7 +7,7 @@
 | ------------------ | -------------------------------------------- |
 | **Versi Dokumen**  | 1.0                                          |
 | **Tanggal**        | 5 November 2025                              |
-| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabd
+| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabdokafi (221240001248)
 ---
 
 ## **1. Pendahuluan**
@@ -294,4 +294,5 @@ erDiagram
         *   Create: `role:member`.
 
 ---
+
 *Dokumen ini bersifat hidup dan akan menjadi dasar untuk pengembangan Gsports v2.0.*
