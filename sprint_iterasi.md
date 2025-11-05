@@ -5,7 +5,7 @@
 | ------------------ | -------------------------------------------- |
 | **Versi Dokumen**  | 1.0                                          |
 | **Tanggal**        | 5 November 2025                              |
-| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabd
+| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabdokafi (221240001248)
 ---
 *   **Nama Proyek:** Gsports v1.0
 *   **Tujuan:** Dokumen ini memecah lingkup pengembangan Gsports v2.0 menjadi beberapa sprint yang terkelola, dengan daftar tugas (task checklist) yang konkret untuk setiap iterasi. Tujuannya adalah memberikan visibilitas progres dan panduan kerja harian bagi tim pengembangan.
@@ -166,4 +166,5 @@ Setiap item di bawah ini adalah sebuah tugas yang dapat dilacak. Saat tugas dike
     *   **[ ]** Lakukan finalisasi pada teks dan terjemahan di dalam aplikasi.
     *   **[ ]** Siapkan aset untuk Google Play Store & Apple App Store (screenshot, deskripsi, ikon).
     *   **[ ]** Lakukan *build* aplikasi dalam mode rilis (`release mode`).
+
     *   **[ ]** Kirim aplikasi untuk ditinjau oleh platform.
