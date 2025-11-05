@@ -4,7 +4,7 @@
 | ------------------ | -------------------------------------------- |
 | **Versi Dokumen**  | 1.0                                          |
 | **Tanggal**        | 5 November 2025                              |
-| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabd
+| **Penyusun**       | Ahmad Rois (221240001239)<br>M. Gilang M.W. Sabdokafi (221240001248)
 ---
 *   **Nama Produk:** Gsports
 *   **Tujuan:** Dokumen ini menyediakan representasi visual dan deskripsi detail dari model data untuk aplikasi Gsports v2.0. Ini berfungsi sebagai cetak biru untuk pembuatan dan pengelolaan koleksi (collections) di database Appwrite.
@@ -156,4 +156,5 @@ Menyimpan data setiap pertandingan yang dicatat menggunakan fitur papan skor "SE
 *   **SPORT_CENTERS dan FIELDS (One-to-Many):** Satu `SPORT_CENTER` dapat memiliki banyak `FIELDS`.
 *   **FIELDS dan BOOKINGS (One-to-Many):** Satu `FIELD` dapat memiliki banyak `BOOKINGS` pada waktu yang berbeda.
 *   **USERS dan MATCH_HISTORY (One-to-Many):** Satu `USER` yang login dapat mencatat dan menyimpan banyak `MATCH_HISTORY`.
+
 *   **BOOKINGS dan MATCH_HISTORY (One-to-Zero-or-One):** Sebuah `BOOKING` dapat memiliki satu (atau tidak sama sekali) entri `MATCH_HISTORY` yang terkait dengannya. Hubungan ini bersifat opsional (`Nullable`), memungkinkan `MATCH_HISTORY` untuk ada secara mandiri (standalone).
